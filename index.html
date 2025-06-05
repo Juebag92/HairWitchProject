@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hair Witch Project</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'UnifrakturCook', cursive;
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-b from-black to-green-950 text-green-100">
+  <!-- Intro Section -->
+  <section class="h-screen flex flex-col items-center justify-center text-center px-4 bg-no-repeat bg-cover" style="background-image: url('https://images.unsplash.com/photo-1558981403-c5f9891cbe5d?auto=format&fit=crop&w=1950&q=80');">
+    <h1 class="text-6xl md:text-7xl mb-4 tracking-wide text-green-200">The Hair Witch Project</h1>
+    <p class="italic text-lg text-green-300">Are you lost?</p>
+    <a href="#rituals" class="mt-6 inline-block bg-green-800 hover:bg-green-600 text-white px-6 py-2 rounded shadow">Begin the Ritual</a>
+  </section>
+
+  <!-- Philosophy Section -->
+  <section class="py-20 px-6 md:px-20 bg-green-950">
+    <h2 class="text-4xl text-center mb-6">A Craft, Not a Cut</h2>
+    <p class="max-w-3xl mx-auto text-center text-green-200">Each appointment is a ceremony — an intentional transformation of your look, spirit, and self-expression. The Hair Witch doesn’t just style; she conjures confidence, clarity, and change. Let your strands tell a story.</p>
+  </section>
+
+  <!-- Rituals Section -->
+  <section id="rituals" class="py-20 px-6 md:px-20">
+    <h2 class="text-4xl text-center mb-12">Spells & Services</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-black bg-opacity-50 p-6 rounded-lg border border-green-600">
+        <h3 class="text-2xl mb-2">Crowning Charms</h3>
+        <p>Haircuts and styling attuned to your energy and face shape.</p>
+      </div>
+      <div class="bg-black bg-opacity-50 p-6 rounded-lg border border-green-600">
+        <h3 class="text-2xl mb-2">Elemental Dyes</h3>
+        <p>Alchemy with color — from earthy copper to moonlit silver.</p>
+      </div>
+      <div class="bg-black bg-opacity-50 p-6 rounded-lg border border-green-600">
+        <h3 class="text-2xl mb-2">Witchcrafted Wigs</h3>
+        <p>Custom wigs, magical transformations, and protective styles.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial Section -->
+  <section class="py-20 px-6 md:px-20 bg-green-900 bg-opacity-10">
+    <h2 class="text-4xl text-center mb-10">Whispers from the Circle</h2>
+    <blockquote class="max-w-xl mx-auto text-center italic text-green-300">“It’s not just hair — it’s healing. Every session feels like a spell has been cast.”</blockquote>
+    <p class="text-center text-green-500 mt-4">— A Transformed Soul</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 px-6 md:px-20">
+    <h2 class="text-4xl text-center text-green-200 mb-10">Book Your Ritual</h2>
+    <form class="max-w-2xl mx-auto bg-green-950 p-6 rounded-lg shadow-lg" action="mailto:your-email@example.com" method="POST" enctype="text/plain">
+      <label class="block mb-4">
+        <span class="text-green-100">Name</span>
+        <input type="text" name="name" class="w-full p-2 bg-black border border-green-600 text-white rounded" required>
+      </label>
+      <label class="block mb-4">
+        <span class="text-green-100">Email</span>
+        <input type="email" name="email" class="w-full p-2 bg-black border border-green-600 text-white rounded" required>
+      </label>
+      <label class="block mb-4">
+        <span class="text-green-100">Your Request</span>
+        <textarea name="message" rows="4" class="w-full p-2 bg-black border border-green-600 text-white rounded" required></textarea>
+      </label>
+      <button type="submit" class="mt-4 bg-green-700 hover:bg-green-500 text-white px-6 py-2 rounded">Send Spell</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-center text-green-400 py-6">
+    <p>&copy; 2025 The Hair Witch Project. Summon responsibly.</p>
+  </footer>
+</body>
+</html>
